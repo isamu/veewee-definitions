@@ -12,11 +12,11 @@ export PATH="\${RBENV_ROOT}/bin:\${PATH}"
 eval "\$(rbenv init -)"
 __EOT__'
 
-source  ~/.profile 
+. ~/.profile 
 
 rbenv install 1.9.3-p484
 rbenv global 1.9.3-p484
 rbenv rehash
 
-gem install bundler
+gem install bundle
 rbenv rehash

@@ -1,5 +1,5 @@
 # Clean up
-apt-get -y remove linux-headers-$(uname -r) build-essential
+apt-get -y remove linux-headers-$(uname -r)
 apt-get -y autoremove
 
 # Removing leftover leases and persistent rules

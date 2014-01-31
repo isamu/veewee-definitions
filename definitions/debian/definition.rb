@@ -42,6 +42,7 @@ Veewee::Definition.declare({
     #"ruby.sh",
     #"puppet.sh",
     #"chef.sh",
+    "apache.sh",
     "cleanup.sh",
     "zerodisk.sh"
   ],
