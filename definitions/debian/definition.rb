@@ -37,6 +37,8 @@ Veewee::Definition.declare({
   :postinstall_files => [
     "base.sh",
     "vagrant.sh",
+    "package.sh",
+    "rbenv.sh",
     #"ruby.sh",
     #"puppet.sh",
     #"chef.sh",
