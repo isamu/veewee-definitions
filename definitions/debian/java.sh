@@ -1,1 +1,1 @@
-apt-get -y install maven2 tomcat6
+apt-get -y install maven2 tomcat6 openjdk-6-jdk 
