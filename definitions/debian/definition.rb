@@ -20,7 +20,7 @@ Veewee::Definition.declare({
     'fb=false ',
     'debconf/frontend=noninteractive ',
     'console-setup/ask_detect=false ',
-    'console-keymaps-at/keymap=us ',
+    'console-keymaps-at/keymap=jp106 ',
     '<Enter>'
   ],
   :kickstart_port => "7122",
@@ -43,6 +43,7 @@ Veewee::Definition.declare({
     #"puppet.sh",
     #"chef.sh",
     "apache.sh",
+    "java.sh",
     "cleanup.sh",
     "zerodisk.sh"
   ],
