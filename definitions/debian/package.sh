@@ -4,7 +4,7 @@ echo 'mysql-server-5.5 mysql-server/root_password_again password vagrant' | debc
 apt-get -y install mysql-client-5.5 mysql-server-5.5 libmysqlclient-dev 
 
 # emacs
-apt-get -y emacs23-nox 
+apt-get -y install emacs23-nox 
 
 # Install Ruby from packages
 apt-get -y install git
